@@ -1,50 +1,60 @@
-# React + TypeScript + Vite
+# Product Card Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This project implements a **Product Card** that allows users to view products with key details such as image, description, name, ratings, and a "Buy Now" button. Additionally, a **Theme Section** allows users to toggle between light and dark themes. The project follows a **modular and component-based architecture**, utilizing **React.js**, **TypeScript**, and **Tailwind CSS** for styling. It ensures flexibility and responsiveness, with components designed to be reused and easily extendable.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Product Card Section**:
+  - Displays the product image.
+  - Shows product name, description, and ratings.
+  - Includes a "Buy Now" button for product purchasing.
+  
+- **Theme Section**:
+  - Provides a toggle to switch between light and dark themes based on user preference.
+  
+- **Modular and Component-Based Architecture**:
+  - The codebase is organized into reusable components for easy maintainability and scalability.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **React.js**: For building user interfaces in a modular and dynamic way.
+- **TypeScript**: For type safety and improved developer experience.
+- **Tailwind CSS**: For fast, utility-first styling.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Getting Started
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+To get started with the project, follow the instructions below:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+### 1. Clone the Repository
+    
+    git clone git@github.com:tusharOxacular09/InRisk_Labs_Assignment.git
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### 2. Navigate into the project directory
+    
+    cd InRisk_Labs_Assignment
+
+### 3. Install Dependencies
+
+    npm install
+
+### 4. Run the Application
+    
+    npm run dev
+
+- You can now access the application at: http://localhost:5173/
+
+## System Requirements
+- Node.js Version: 22 or above is recommended.
+- Node 18: It is compatible with Node 18, though using Node 22 or higher is preferred for optimal performance.
+- Node 21: Not compatible with Node 21.
+- Make sure your Node.js version is up to date to ensure smooth operation of the application.
+
+## Screenshots
+
+### Desktop View
+![Product Image](./screenshots/desktop-view.png)
+
+### Mobile View
+![Product Image](./screenshots/mobile-view.png)
