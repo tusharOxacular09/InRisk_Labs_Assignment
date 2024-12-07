@@ -54,11 +54,11 @@ To get started with the project, follow the instructions below:
 
 ### Desktop View
 
-![Product Image](/screenshots/desktop-view.png)
+![Product Image](./public/screenshots/desktop-view.png)
 
 ### Mobile View
 
-![Product Image](/screenshots/mobile-view.png)
+![Product Image](./public/screenshots/mobile-view.png)
 
 ### Changes Made:
 
