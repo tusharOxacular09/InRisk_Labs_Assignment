@@ -60,6 +60,10 @@ To get started with the project, follow the instructions below:
 
 ![Product Image](./public/screenshots/mobile-view.png)
 
+### Light Theme View
+
+![Product Image](./public/screenshots/light-theme.png)
+
 ### Changes Made:
 
 1. The screenshots section is properly formatted with clear headers for **Desktop View** and **Mobile View**.
