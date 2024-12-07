@@ -10,10 +10,8 @@ This project implements a **Product Card** that allows users to view products wi
   - Displays the product image.
   - Shows product name, description, and ratings.
   - Includes a "Buy Now" button for product purchasing.
-  
 - **Theme Section**:
   - Provides a toggle to switch between light and dark themes based on user preference.
-  
 - **Modular and Component-Based Architecture**:
   - The codebase is organized into reusable components for easy maintainability and scalability.
 
@@ -28,11 +26,11 @@ This project implements a **Product Card** that allows users to view products wi
 To get started with the project, follow the instructions below:
 
 ### 1. Clone the Repository
-    
+
     git clone git@github.com:tusharOxacular09/InRisk_Labs_Assignment.git
 
 ### 2. Navigate into the project directory
-    
+
     cd InRisk_Labs_Assignment
 
 ### 3. Install Dependencies
@@ -40,12 +38,13 @@ To get started with the project, follow the instructions below:
     npm install
 
 ### 4. Run the Application
-    
+
     npm run dev
 
 - You can now access the application at: http://localhost:5173/
 
 ## System Requirements
+
 - Node.js Version: 22 or above is recommended.
 - Node 18: It is compatible with Node 18, though using Node 22 or higher is preferred for optimal performance.
 - Node 21: Not compatible with Node 21.
@@ -54,7 +53,16 @@ To get started with the project, follow the instructions below:
 ## Screenshots
 
 ### Desktop View
-![Product Image](./screenshots/desktop-view.png)
+
+![Product Image](/screenshots/desktop-view.png)
 
 ### Mobile View
-![Product Image](./screenshots/mobile-view.png)
+
+![Product Image](/screenshots/mobile-view.png)
+
+### Changes Made:
+
+1. The screenshots section is properly formatted with clear headers for **Desktop View** and **Mobile View**.
+2. The markdown code is consistent, ensuring that everything is aligned and structured properly.
+
+Feel free to copy and paste this into your `README.md` file!
